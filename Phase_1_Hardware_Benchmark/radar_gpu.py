@@ -1,10 +1,9 @@
 import tkinter as tk
 from pynvml import *
 import psutil
-import platform
 import time
 
-# --- KHỞI TẠO CẢM BIẾN ---
+# Khởi tạo cảm biến
 nvmlInit()
 handle = nvmlDeviceGetHandleByIndex(0)
 gpu_name = nvmlDeviceGetName(handle)
