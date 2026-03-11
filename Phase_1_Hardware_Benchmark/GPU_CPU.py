@@ -2,7 +2,6 @@ import torch
 import time
 
 device = torch.device ('cuda' if torch.cuda.is_available() else 'cpu')
-
 steps = 1000
 
 def test_GPU (tensor_device):
@@ -20,8 +19,7 @@ def test_GPU (tensor_device):
 
     return time.time() - start_time
 
-time_cpu = torch.device('cpu')
-
+time_cpu = test_GPU(torch.device('cpu'))
 print(f'CPU chạy mất {time_cpu} giây')
 
 if torch.cuda.is_available():

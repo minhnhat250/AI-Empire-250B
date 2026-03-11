@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # AI-Empire-250B
 Hướng tới công nghệ lõi
 =======
@@ -56,5 +56,3 @@ Hướng tới công nghệ lõi
 - **Infrastructure:** GPU Tensor Cores
 
 ---
-*Status: Phase 1 - Hardware Logic [||||------] 40%*
->>>>>>> master
