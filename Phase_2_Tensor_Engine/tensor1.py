@@ -18,8 +18,33 @@ print(f"Đạo hàm dy/dx tại x =2 là: {x.grad}")
 #tensor tạo ra từ danh sách có sẵn
 quan_doan_a = torch.tensor([[1,2],[3,4]])
 quan_doan_d = torch.tensor([[3,4],[5,6]])
+
 #tensor ta ra số 1
 quan_doan_b = torch.ones(3,3)
+print("Tensor 1",quan_doan_b)
 
 #tensor tạo số 0
-quan_doan_c = torch.zeros(2,)
+quan_doan_c = torch.zeros(2,2)
+print("Tensor số 0",quan_doan_c)
+
+#tensor phân phối chuẩn
+phan_phoi_chuan = torch.randn(3,3)
+print("Tensor phân phối chuẩn",phan_phoi_chuan)
+
+#Tạo dãy số từ 1 đên 9 vơ bước nhảy là 2
+range_tensor = torch.arange(1,10,step=2)
+print("tensor bước nhảy",range_tensor)
+
+#Tensor 5 số cách đều
+linspace_tensor = torch.linspace(1,3,steps=1)
+print("Tensor số cách đều",linspace_tensor)
+
+#Tensor sa chép ma trận
+ones_like_x = torch.ones_like(x)
+print("Tensor sao chép ma trận",ones_like_x)
+
+
+
+
+
+
