@@ -55,6 +55,6 @@ Hướng tới công nghệ lõi
 - **Interface:** Streamlit
 - **Infrastructure:** GPU Tensor Cores
 
-![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fminhnhat250%2FAI-Empire-250B&count_bg=%2322C127&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=Project+Views&edge_flat=false)
+![Project Views](https://komarev.com/ghpvc/?username=minhnhat250-AI-Empire-250B&color=green&label=PROJECT+VIEWS)
 
 ---
